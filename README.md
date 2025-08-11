@@ -1,14 +1,9 @@
 # Vite-React-jsx-
 This contains all the basic concepts of jsx.
-<br>
 <h1>App1.jsx</h1>
-<br>
 This is the first lecture of jsx.It covers many topics like:
-<br>
 1-Components
-<br>
 2-Props
-<br>
 3-UseState Hook
 <br>
 4-UseEffect Hook
