@@ -1,0 +1,9 @@
+.prop{
+    width:400px;
+    height:100px;
+    border:2px solid black;
+    gap:20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}

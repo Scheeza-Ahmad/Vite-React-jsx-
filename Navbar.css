@@ -1,0 +1,10 @@
+.nav{
+    display:flex;
+    gap:30px;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding:30px;
+    background-color: beige;
+    font-size: 20px;
+}
