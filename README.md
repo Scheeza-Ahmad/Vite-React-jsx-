@@ -22,4 +22,5 @@ It has all the basic concepts of props
 <br>
 <h1>Footer.jsx and Footer.css</h1>
 It has a simple footer designed by using the jsx and css.
-<br>
+<h1>App2.jsx</h1>
+It contains the concept of condition rendering and how to make a component inside the app.jsx file.
