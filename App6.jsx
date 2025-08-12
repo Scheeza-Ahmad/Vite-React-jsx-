@@ -4,12 +4,12 @@ import {
 } from "react-router-dom";
 import Home from "./components/Home";
 import Contact from "./components/Contact";
-import Navbar from "./components/Navbar";
+import Navvbar from "./components/Navvbar";
 function App() {
   const router = createBrowserRouter([
       
-    { path: "/", element: <><Navbar /><Home /></> },
-    { path: "/contact", element: <><Navbar/><Contact /> </>},
+    { path: "/", element: <><Navvbar /><Home /></> },
+    { path: "/contact", element: <><Navvbar/><Contact /> </>},
   ]);
   return (
     <>
