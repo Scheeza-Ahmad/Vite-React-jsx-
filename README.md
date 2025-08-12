@@ -28,3 +28,5 @@ It contains the concept of condition rendering and how to make a component insid
 It contains the list rendering.It uses .map functions and useState.
 <h1>App4.jsx</h1>
 It contains the use of react useState and useEffect hook and is used to fetch the data using them.
+<h1>App5.jsx</h1>
+It contains how to handle events and how to handle inputs in react
