@@ -30,3 +30,5 @@ It contains the list rendering.It uses .map functions and useState.
 It contains the use of react useState and useEffect hook and is used to fetch the data using them.
 <h1>App5.jsx</h1>
 It contains how to handle events and how to handle inputs in react
+<h1>App6.jsx,Home.jsx,Contact.jsx,Navvbar.jsx</h1>
+They explain the working of Routing and how to create a navbar in react
