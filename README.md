@@ -26,3 +26,5 @@ It has a simple footer designed by using the jsx and css.
 It contains the concept of condition rendering and how to make a component inside the app.jsx file.
 <h1>App3.jsx</h1>
 It contains the list rendering.It uses .map functions and useState.
+<h1>App4.jsx</h1>
+It contains the use of react useState and useEffect hook and is used to fetch the data using them.
