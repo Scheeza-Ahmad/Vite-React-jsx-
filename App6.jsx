@@ -1,20 +1,19 @@
-import {
-  createBrowserRouter,
-  RouterProvider
-} from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
-import Contact from "./components/Contact";
-import Navvbar from "./components/Navvbar";
+import ContactUs from "./components/ContactUs";
+import AboutUs from "./components/AboutUs";
 function App() {
-  const router = createBrowserRouter([
-      
-    { path: "/", element: <><Navvbar /><Home /></> },
-    { path: "/contact", element: <><Navvbar/><Contact /> </>},
-  ]);
   return (
     <>
-      {/* <Navbar /> */}
-      <RouterProvider router={router} />
+
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />}>
+            <Route path="ContactUs" element={<ContactUs />} />
+            <Route path="AboutUs" element={<AboutUs />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
